@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar"
+    tools:context=".Activities.SetupActivity">
+
+    <LinearLayout
+        android:id="@+id/title_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/baloothambibold"
+            android:text="@string/account_setup"
+            android:textColor="@android:color/black"
+            android:textSize="36sp" />
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setup_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_below="@id/title_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:contentDescription="@string/profile_image"
+        android:src="@drawable/ic_account_circle_gray_24dp" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/name_input_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setup_image"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:theme="@style/TextInputLayoutStyle"
+        app:boxCornerRadiusBottomEnd="12dp"
+        app:boxCornerRadiusBottomStart="12dp"
+        app:boxCornerRadiusTopEnd="12dp"
+        app:boxCornerRadiusTopStart="12dp"
+        app:boxStrokeColor="@color/colorAccent"
+        app:hintAnimationEnabled="true"
+        app:hintTextColor="@color/colorAccent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/colorAccent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/branch_input_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_input_layout"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:theme="@style/TextInputLayoutStyle"
+        app:boxCornerRadiusBottomEnd="12dp"
+        app:boxCornerRadiusBottomStart="12dp"
+        app:boxCornerRadiusTopEnd="12dp"
+        app:boxCornerRadiusTopStart="12dp"
+        app:boxStrokeColor="@color/colorAccent"
+        app:hintAnimationEnabled="true"
+        app:hintTextColor="@color/colorAccent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/branch_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:hint="@string/branch"
+            android:inputType="text"
+            android:textColorHint="@color/colorAccent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/sem_input_layout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/branch_input_layout"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:theme="@style/TextInputLayoutStyle"
+        app:boxCornerRadiusBottomEnd="12dp"
+        app:boxCornerRadiusBottomStart="12dp"
+        app:boxCornerRadiusTopEnd="12dp"
+        app:boxCornerRadiusTopStart="12dp"
+        app:boxStrokeColor="@color/colorAccent"
+        app:hintAnimationEnabled="true"
+        app:hintTextColor="@color/colorAccent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/sem_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:hint="@string/semester"
+            android:inputType="text"
+            android:textColorHint="@color/colorAccent" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sem_input_layout"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/button_style_one"
+        android:fontFamily="@font/baloothambisemibold"
+        android:text="@string/save"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>

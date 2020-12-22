@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">College App</string>
+    <string name="Desc">College App is a social hub for your campus.Find parties, sports and academic events going on at your school</string>
+    <string name="get_started">Get Started</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sem">Sem</string>
+    <string name="username">Username</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sampleText">The quick brown fox jumps over the lazy dog
+                              /nThe quick brown fox jumps over the lazy dog
+                              /nThe quick brown fox jumps over the lazy dog</string>
+    <string name="create_account">Create Account</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="no_account_sign_up">Don\'t Have an Account ? Sign Up</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="feed">Feed</string>
+    <string name="event">Event</string>
+    <string name="message">Message</string>
+    <string name="settings">Settings</string>
+    <string name="options">Options</string>
+    <string name="logout">Logout</string>
+    <string name="account_setup">Account Setup</string>
+    <string name="name">Name</string>
+    <string name="branch">Branch</string>
+    <string name="save">Save</string>
+    <string name="profile">Profile</string>
+    <string name="edit">EDIT</string>
+    <string name="semester">Semester</string>
+    <string name="add_post">Add Post</string>
+    <string name="add_status">What\'s on your mind ?</string>
+    <string name="randomAbout">tortor at risus viverra adipiscing at in tellus integer
+        feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit amet
+        porttitor eget dolor morbi non arcu risus quis varius quam quisque id diam vel
+        quam elementum pulvinar etiam non quam lacus</string>
+    <string name="comments">Comments</string>
+    <string name="enter_comment">Enter Comment</string>
+    <string name="event_poster">Event Poster</string>
+    <string name="interested_people">10 people are interested</string>
+    <string name="register">Register</string>
+    <string name="sample_event_title">Sample Event Title</string>
+    <string name="about">About</string>
+    <string name="sample_event_date">10th June 2020</string>
+    <string name="sample_event_time">7:00 pm IST</string>
+    <string name="address">Address</string>
+    <string name="sample_address">LJIET,S.G Road,Sarkhej,Ahmedabad</string>
+    <string name="event_organiser">Event Organiser</string>
+    <string name="event_organiser_name">Event Organiser Name</string>
+    <string name="event_organiser_con_info">Event Organiser Contact Information</string>
+    <string name="event_organiser_contact">Event Organiser Contact</string>
+    <string name="event_organiser_email">Event Organiser Email</string>
+    <string name="my_profile">My Profile</string>
+    <string name="sample_name">Full name</string>
+    <string name="placeholder">placeholder</string>
+    <string name="loading_comment">Loading Comment...</string>
+    <string name="sample_text">This is a Sample Text</string>
+    <string name="post">Post</string>
+    <string name="add_image">Add Image</string>
+    <string name="title_of_the_event">Title of the event</string>
+    <string name="description_of_the_event">Description</string>
+    <string name="address_of_the_event">Address</string>
+    <string name="create_event">Create Event</string>
+    <string name="event_details">Event Details :</string>
+    <string name="organiser_details">Organiser Details :</string>
+    <string name="contact_number_one">Contact No. 1</string>
+    <string name="contact_number_two_optional">Contact No. 2 (Optional)</string>
+    <string name="add_event_poster">Add Event Poster</string>
+</resources>

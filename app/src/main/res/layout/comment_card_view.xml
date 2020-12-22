@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="5dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/commentProfilePic"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ic_account_circle_gray_24dp" />
+
+        <LinearLayout
+            android:id="@+id/ll11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/commentUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloothambibold"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/name"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/postCommentMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-8dp"
+                android:fontFamily="@font/baloothambiregular"
+                android:includeFontPadding="false"
+                android:lineSpacingMultiplier="0.65"
+                android:text="@string/loading_comment"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

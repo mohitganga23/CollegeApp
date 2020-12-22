@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecf0f3"
+    tools:context=".Activities.CommentActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbarComment"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:navigationIcon="@drawable/ic_arrow_back_white_24dp">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/baloothambibold"
+            android:text="@string/comments"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/commentRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbarComment"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="12dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <EditText
+            android:id="@+id/editTextComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_weight="1.7"
+            android:backgroundTint="@color/colorAccent"
+            android:hint="@string/enter_comment"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine" />
+
+        <ImageButton
+            android:id="@+id/postCommentBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="0.3"
+            android:background="@drawable/ic_send_black_24dp"
+            android:contentDescription="@string/comments" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/noComments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/baloothambisemibold"
+        android:text="Comment's Section Empty"
+        android:textSize="24sp" />
+
+</RelativeLayout>
